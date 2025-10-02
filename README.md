@@ -33,21 +33,21 @@ The framework covers end-to-end functional testing of the entire CCPC App:
 
 Follow these steps to execute the automated tests:
 
-### 1️⃣ Clone the Repository
-```bash
+1️⃣ Clone the Repository
+bash
 git clone https://github.com/your-username/ccpc-app-automation.git
-###2️⃣ Navigate to Project Folder
+2️⃣ Navigate to Project Folder
 
-```bash
+bash
 Copy code
 cd ccpc-app-automation
-###3️⃣ Install Dependencies
+3️⃣ Install Dependencies
 Make sure Maven is installed. Install project dependencies:
 
-```bash
+bash
 Copy code
 mvn clean install
-###4️⃣ Configure Test Data & Devices
+4️⃣ Configure Test Data & Devices
 
 Update JSON test data if needed.
 
@@ -55,14 +55,14 @@ Connect your mobile device/emulator.
 
 Update Appium server URL and device capabilities in BaseTest.java or config.properties.
 
-###5️⃣ Run Tests
+5️⃣ Run Tests
 
-```bash
+bash
 Copy code
 mvn clean test
 ⚡ Tests will execute on the connected device/emulator and generate Extent Reports automatically.
 
-###6️⃣ View Test Reports
+6️⃣ View Test Reports
 After execution, open Extent Reports HTML in the reports/ folder to check test results with screenshots, logs, and pass/fail status.
 
 📌 Project Highlights
