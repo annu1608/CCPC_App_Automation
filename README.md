@@ -35,7 +35,7 @@ Follow these steps to execute the automated tests:
 
 #### 1️⃣ Clone the Repository
 
-   - git clone https://github.com/your-username/ccpc-app-automation.git
+   - git clone https://github.com/annu1608/ccpc-app-automation.git
 
 #### 2️⃣ Navigate to Project Folder
    - Copy code
