@@ -20,12 +20,12 @@ The framework covers end-to-end functional testing of the entire CCPC App:
 ---
 
 ## 🛠️ Tech Stack
-- **Java**  
-- **Appium**  
-- **TestNG**  
-- **Maven**  
-- **JSON**  
-- **Extent Reports**
+- Java  
+- Appium  
+- TestNG  
+- Maven  
+- JSON  
+- Extent Reports  
 
 ---
 
@@ -33,36 +33,32 @@ The framework covers end-to-end functional testing of the entire CCPC App:
 
 Follow these steps to execute the automated tests:
 
-## 1️⃣ Clone the Repository
+#### 1️⃣ Clone the Repository
 
-git clone https://github.com/your-username/ccpc-app-automation.git
+   - git clone https://github.com/your-username/ccpc-app-automation.git
 
-## 2️⃣ Navigate to Project Folder
+#### 2️⃣ Navigate to Project Folder
+   - Copy code
+   - cd ccpc-app-automation
 
-Copy code
-cd ccpc-app-automation
+#### 3️⃣ Install Dependencies
+   - Make sure Maven is installed, then install project dependencies:
+   - Copy code
+   - mvn clean install
 
-## 3️⃣ Install Dependencies
-Make sure Maven is installed, then install project dependencies:
+#### 4️⃣ Configure Test Data & Devices
+   - Update JSON test data if needed.
+   - Connect your mobile device/emulator.
+   - Update Appium server URL and device capabilities in BaseTest.java or config.properties.
 
-Copy code
-mvn clean install
+#### 5️⃣ Run Tests
+   - Execute all tests with Maven:
+   - Copy code
+   - mvn clean test
+   - Tests will run on the connected device/emulator and generate Extent Reports automatically.
 
-## 4️⃣ Configure Test Data & Devices
-
-Update JSON test data if needed.
-Connect your mobile device/emulator.
-Update Appium server URL and device capabilities in BaseTest.java or config.properties.
-
-## 5️⃣ Run Tests
-Execute all tests with Maven:
-
-Copy code
-mvn clean test
-⚡ Tests will run on the connected device/emulator and generate Extent Reports automatically.
-
-## 6️⃣ View Test Reports
-After execution, open the generated Extent Reports HTML in the reports/ folder to check results with:
+#### 6️⃣ View Test Reports
+   - After execution, open the generated Extent Reports HTML in the reports/ folder to check results with:
 
 ## 📸 Screenshots
 - 📝 Logs
