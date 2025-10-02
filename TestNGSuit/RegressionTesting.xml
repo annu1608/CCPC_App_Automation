@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Regression_Suite" parallel="false">
+
+<listeners>
+    <listener class-name="TestUtils.Listeners"/>
+</listeners>
+
+    <test thread-count="1" name="Full_Application">
+        <classes>
+
+            
+            <class name="MobileTesting.Full_Validation"/>
+      
+               
+     
+        </classes>
+    </test>
+</suite>
